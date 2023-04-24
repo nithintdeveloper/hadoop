@@ -8,9 +8,9 @@ Hadoop has become a popular tool for big data processing and analysis due to its
 
 Commands Used
 
-git https://github.com/big-data-europe/docker-hadoop.git
+git clone https://github.com/big-data-europe/docker-hadoop.git
 
-docker-compose up
+docker-compose up -d
 
 wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-examples/2.7.1/hadoop-mapreduce-examples-2.7.1-sources.jar
 
