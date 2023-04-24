@@ -16,7 +16,15 @@ docker container ls
 
 docker exec -it namenode bash
 
-hdfs dfs -ls /      // This command is used to list all the files
+hdfs dfs -ls /    -> This command is used to list all the files
+
+hdfs dfs -mkdir -p  /user/root 
+
+ifconfig  -> get ip address
+
+http://localhost:9870/
+
+
 
 wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-examples/2.7.1/hadoop-mapreduce-examples-2.7.1-sources.jar
 
